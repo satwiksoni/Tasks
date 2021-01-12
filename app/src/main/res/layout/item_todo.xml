@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:elevation="10dp"
+    app:cardCornerRadius="10dp">
+    <View
+        android:id="@+id/viewColorTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginLeft="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:padding="5dp"
+            android:clickable="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_marginRight="5dp">
+
+            <TextView
+            android:id="@+id/Title_txt"
+            android:text="Text title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Text_color"
+            android:layout_alignParentStart="true"
+                android:layout_toStartOf="@id/Category_txt"
+            android:layout_marginEnd="5dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="50dp"
+                android:layout_toLeftOf="@id/Category_txt" />
+
+
+            <TextView
+                android:id="@+id/showTask_txt"
+                android:text="Text Subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="4dp"
+                android:layout_below="@+id/Title_txt"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textSize="16sp"
+                android:textColor="@color/Text_color"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/Category_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="Category"
+                android:textColor="@color/Text_color_grey"
+                android:textSize="12sp"
+                android:layout_alignParentRight="true" />
+            <ImageView
+                android:id="@+id/Delete_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_delete_24"
+                android:layout_below="@+id/Category_txt"
+                android:layout_alignParentEnd="true"
+                android:backgroundTint="@color/white"
+                android:layout_marginTop="20dp"
+
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/Date_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/showTask_txt"
+                android:layout_alignParentStart="true"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="Date"
+                android:textColor="@color/Text_color_grey"
+                android:textSize="12sp"
+                android:layout_marginTop="15dp"
+                android:layout_alignParentLeft="true" />
+            <TextView
+                android:id="@+id/DateAll_txt"
+                android:text="22-12-21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+
+                android:layout_below="@+id/Date_txt"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textSize="16sp"
+                android:textColor="@color/Text_color"
+                android:layout_alignParentLeft="true" />
+
+
+
+            <TextView
+                android:id="@+id/Time_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/showTask_txt"
+                android:layout_alignParentEnd="true"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="Time"
+                android:textColor="@color/Text_color_grey"
+                android:textSize="12sp"
+                android:layout_marginTop="15dp"
+                android:layout_alignParentRight="true" />
+            <TextView
+                android:id="@+id/TimeAll_txt"
+                android:text="22:12 AM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+
+                android:layout_below="@+id/Date_txt"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textSize="16sp"
+                android:textColor="@color/Text_color"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

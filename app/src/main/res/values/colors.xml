@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#F44336</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dark_maroon"> #900C3F </color>
+    <color name="Light_maroon">  #C70039  </color>
+    <color name="Text_color">  #FFFFFF  </color>
+    <color name="Inside_ET">#201F1F</color>
+    <color name="Text_color_grey">#DDC7C7</color>
+    <color name="grey">#635F5F</color>
+
+    <array name="random">
+        <item name="Li" type="color">#C70039</item>
+        <item name="ew" type="color">#C70039</item>
+        <item name="ff" type="color">#C70039</item>
+        <item name="tt" type="color">#C70039</item>
+        <item name="hh" type="color">#C70039</item>
+    </array>
+
+</resources>
